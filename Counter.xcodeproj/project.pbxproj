@@ -19,6 +19,7 @@
 		190E68332659C4740055565E /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E68322659C4740055565E /* ComplicationController.swift */; };
 		190E68352659C4750055565E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 190E68342659C4750055565E /* Assets.xcassets */; };
 		190E68382659C4750055565E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 190E68372659C4750055565E /* Preview Assets.xcassets */; };
+		19591900265AD1B8006ED278 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 195918FF265AD1B8006ED278 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +65,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		190E68102659C4730055565E /* Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Counter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		190E68102659C4730055565E /* Count It.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Count It.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		190E68142659C4730055565E /* Counter WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Counter WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		190E681A2659C4730055565E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		190E681C2659C4740055565E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -80,6 +81,7 @@
 		190E68372659C4750055565E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		190E68392659C4750055565E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		190E683A2659C4750055565E /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		195918FF265AD1B8006ED278 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		190E68092659C4730055565E = {
 			isa = PBXGroup;
 			children = (
+				195918FF265AD1B8006ED278 /* README.md */,
 				190E68182659C4730055565E /* Counter WatchKit App */,
 				190E68272659C4740055565E /* Counter WatchKit Extension */,
 				190E68112659C4730055565E /* Products */,
@@ -105,7 +108,7 @@
 		190E68112659C4730055565E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				190E68102659C4730055565E /* Counter.app */,
+				190E68102659C4730055565E /* Count It.app */,
 				190E68142659C4730055565E /* Counter WatchKit App.app */,
 				190E68232659C4740055565E /* Counter WatchKit Extension.appex */,
 			);
@@ -164,7 +167,7 @@
 			);
 			name = Counter;
 			productName = Counter;
-			productReference = 190E68102659C4730055565E /* Counter.app */;
+			productReference = 190E68102659C4730055565E /* Count It.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
 		190E68132659C4730055565E /* Counter WatchKit App */ = {
@@ -246,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19591900265AD1B8006ED278 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,7 +524,7 @@
 				DEVELOPMENT_TEAM = Q9ZR292R7K;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.charlieeison.Counter;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Count It";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -533,7 +537,7 @@
 				DEVELOPMENT_TEAM = Q9ZR292R7K;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.charlieeison.Counter;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Count It";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
